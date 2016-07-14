@@ -1,3 +1,3 @@
 # DownMenuDemo
 一个简易的下拉菜单
-![image](https://raw.githubusercontent.com/huanglei1926/master/DownMenuDemo/DownMenuDemo/screenshot/Snip20160714_2.png)
+![image](https://raw.githubusercontent.com/huanglei1926/DownMenuDemo/master/DownMenuDemo/screenshot/Snip20160714_2.png)
