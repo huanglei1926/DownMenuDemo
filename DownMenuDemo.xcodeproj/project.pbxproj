@@ -15,6 +15,7 @@
 		122B16621D376B38002ACACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122B16601D376B38002ACACB /* LaunchScreen.storyboard */; };
 		122B166D1D376B39002ACACB /* DownMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B166C1D376B39002ACACB /* DownMenuDemoTests.m */; };
 		122B16781D376B3A002ACACB /* DownMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B16771D376B3A002ACACB /* DownMenuDemoUITests.m */; };
+		12E9D4CB1D3775480098925B /* HLDownMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D4CA1D3775480098925B /* HLDownMenuButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		122B16731D376B39002ACACB /* DownMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122B16771D376B3A002ACACB /* DownMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownMenuDemoUITests.m; sourceTree = "<group>"; };
 		122B16791D376B3C002ACACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E9D4C91D3775480098925B /* HLDownMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDownMenuButton.h; sourceTree = "<group>"; };
+		12E9D4CA1D3775480098925B /* HLDownMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDownMenuButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		122B16511D376B34002ACACB /* DownMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				12E9D4C91D3775480098925B /* HLDownMenuButton.h */,
+				12E9D4CA1D3775480098925B /* HLDownMenuButton.m */,
 				122B16551D376B35002ACACB /* AppDelegate.h */,
 				122B16561D376B36002ACACB /* AppDelegate.m */,
 				122B16581D376B37002ACACB /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				122B165A1D376B37002ACACB /* ViewController.m in Sources */,
 				122B16571D376B36002ACACB /* AppDelegate.m in Sources */,
+				12E9D4CB1D3775480098925B /* HLDownMenuButton.m in Sources */,
 				122B16541D376B34002ACACB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				122B167E1D376B3C002ACACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		122B167F1D376B3C002ACACB /* Build configuration list for PBXNativeTarget "DownMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				122B16811D376B3C002ACACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		122B16821D376B3C002ACACB /* Build configuration list for PBXNativeTarget "DownMenuDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				122B16841D376B3C002ACACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
